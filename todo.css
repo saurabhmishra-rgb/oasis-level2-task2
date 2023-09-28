@@ -1,0 +1,64 @@
+body{
+      
+       
+    #saurabh{
+        background-color: rgba(6, 6, 6, 0.637);
+        border-radius: 10px;
+        font-size: 25px;
+        color: rgba(66, 230, 25, 0.914);
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        top: 100px;
+        left: 600px;
+        height: 200px;
+        width: 400px;
+    }
+#mishra{
+    background-color:  rgba(24, 26, 25, 0.51);
+    padding: 20px 40px;
+    position: absolute;
+    top: 310px;
+    left: 600px;
+    height: 300px;
+    width: 330px;
+    background-size: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: white;
+
+}
+#Glossary{
+    padding: 15px 5px;
+    border-radius: 5px;
+    background-color: rgba(83, 223, 218, 0.734);
+    font-size: 20px;
+   font-weight: 600;
+   color: blueviolet;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn{
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(142, 54, 54, 0.571);
+    border-radius: 5px;
+    box-shadow: 3px 3px ;
+    color:  rgba(218, 5, 255, 0.914);
+    background-size: contain;
+     
+}
+
+#delete{
+    font-size: 25px;
+    padding: 7px 50px;
+    position: absolute;
+    top:600px;
+    left: 1050px;
+    color: white;
+    background-color: rgba(236, 11, 217, 0.484);
+    border-radius: 10px;
+    box-shadow: 1px 1px #254;
+}
+   
+}

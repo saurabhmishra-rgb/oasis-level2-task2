@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>todo web app</title>
+    <link rel="stylesheet" href="./todo.png.css">
+</head>
+
+<body>
+    <video src="video.mp4.mp4" muted loop autoplay   class="backgroud" style="height: 0%; width: 100%; object-fit: cover;"></video>
+    <div id="saurabh">
+        <h1>
+            Glossary list
+        </h1>
+        <input type="text" id="Glossary" placeholder="please write item here..." name="display">
+        <button class="btn" onclick="add()">Add item</button>
+    </div>
+    <div id="mishra">
+
+    </div>
+    <div>
+        <button id="delete" onclick="remove()">Delete</button>
+    </div>
+    <script>
+        var input = document.getElementById("Glossary");
+        var text = document.querySelector(".btn");
+        function add() {
+
+              if (input.value == "") {
+                alert("please enter the text");
+                    }
+                    else {
+                var shubham = document.createElement("li");
+                shubham.innerHTML = `${input.value}`;
+                shubham.id = "list"
+                mishra.appendChild(shubham);
+                input.value = "";
+            }
+
+        }
+
+        function remove() {
+           var list=document.getElementById("list");
+           list.remove(list.selectedIndex);
+        }
+        document.querySelector("h1").style.color="red"
+        document.querySelector("h1").style.backgroundColor="rgba(236, 11, 217, 0.484) "
+        document.querySelector("h1").style.borderRadius="5px"
+      
+    </script>
+</body>
+
+</html>
